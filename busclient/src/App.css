@@ -1,0 +1,95 @@
+/* App.css */
+
+
+.auth-container {
+  font-family: 'Garamond', 'Times New Roman', Times, serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+  background-image: url('C:\Users\Win\Documents\fullstackproj\busclient\src\components\frntpage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align content to the right side */
+  height: 100vh;
+  
+}
+
+.auth-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.auth-tabs button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #34485a; /* Blue color for tabs */
+  transition: color 0.3s ease;
+  font-family: 'Garamond', 'Times New Roman', Times, serif;
+}
+
+.auth-tabs button:hover {
+  color: #0c0a09; /* Darker blue color on hover */
+}
+
+.auth-tabs button.active {
+  color: #0f0d0c; /* Darker blue color for active tab */
+  font-weight: bold;
+}
+
+.auth-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff; /* White background color for form */
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #34485a; /* Light gray border for input fields */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.auth-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #34485a; /* Dark blue color for submit button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Garamond', 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.auth-form button[type="submit"]:hover {
+  background-color: #34485a; /* Darker blue color on hover */
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: lighter;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family:'Garamond', 'Times New Roman', Times, serif;
+}
+

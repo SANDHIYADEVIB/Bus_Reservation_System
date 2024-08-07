@@ -1,0 +1,100 @@
+/* Container for the entire booking page */
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #a7d9e2; /* Light gray background color */
+}
+
+/* Content box */
+.booking-box {
+    background-color: #fae9e9; /* White background color */
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    max-width: 800px; /* Maximum width for content */
+    width: 90%; /* 90% of the container width */
+}
+
+/* Heading */
+.booking-header {
+    text-align: center; /* Center the text */
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #111111; /* Dark text color */
+    margin-bottom: 30px; /* Add more spacing below the heading */
+    font-family: 'Garamond', 'Times New Roman', Times, serif; /* Use a common font */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+/* List of selected buses */
+.booking-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin-bottom: 30px; /* Add more spacing below the list */
+}
+
+/* Individual bus item */
+.booking-item {
+    background-color: #cab4b4; /* Light gray background color */
+    padding: 20px; /* Increase padding */
+    border-radius: 12px; /* More rounded corners */
+    margin-bottom: 20px; /* Add more spacing between items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+    font-family: 'Arial', sans-serif; /* Use a common font */
+    color: #444; /* Slightly darker text color */
+}
+
+/* Label for number of seats */
+.booking-label {
+    font-size: 22px; /* Larger font size */
+    color: #555; /* Darker text color */
+    margin-bottom: 15px; /* Add more spacing below the label */
+    display: block; /* Make it a block element */
+    font-family: 'Arial', sans-serif; /* Use a common font */
+}
+
+/* Input field for number of seats */
+.booking-input {
+    width: 70px; /* Increase width */
+    padding: 12px; /* Increase padding */
+    border: 2px solid #9b8484; /* Darker border */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    color: #333; /* Text color */
+}
+
+/* Payment details */
+.payment-details {
+    text-align: center; /* Center align payment details */
+}
+
+/* Total price */
+.total-price {
+    font-size: 30px; /* Larger font size */
+    color: #009688; /* Teal color */
+    font-weight: bold; /* Bold font weight */
+    margin-top: 30px; /* Add more spacing above payment details */
+    font-family: 'Arial', sans-serif; /* Use a common font */
+}
+#iu{ padding: 10px;
+background-color: #ff5722; /* Orange button color */
+color: #fff;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+width: 10%; /* Full width */
+font-size: 24px; /* Larger font size for buttons */}
+#pl{
+    background-color: #a35b9a; /* Green color */
+    color: #fffcfc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}

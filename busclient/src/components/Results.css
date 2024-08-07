@@ -1,0 +1,69 @@
+/* Results.css */
+
+.result-container {
+  
+  background-color: #d1b2b2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(145, 123, 123, 0.1);
+  max-width: 100%;
+  margin: 50px auto; /* Center the frame vertically and horizontally */
+  overflow-y: auto;
+  max-height: 80vh; /* Adjust height as needed */
+}
+
+.bus-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.bus-card-link {
+  cursor: pointer;
+}
+
+.bus-card {
+  background-color: #e7b4b4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px;
+  transition: box-shadow 0.7s ease; /* Smooth transition on hover */
+}
+
+.bus-card:hover {
+  box-shadow: 0 4px 8px rgb(139, 71, 71);
+   /* Slightly larger shadow on hover */
+}
+
+.bus-card p {
+  margin: 10px 0; /* Increased margin for better spacing */
+  font-size: 16px; /* Larger font size for better readability */
+  color: #5a0f47; /* Dark text color */
+  line-height: 1.4; /* Improved line height for better readability */
+  text-align: left; 
+  font-weight: bold;/* Align text to the left */
+}
+
+#kl {
+  background-color: #a35b9a; /* Green color */
+  color: #fffcfc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #59c3dd; /* Darker green color on hover */
+}
+h2{
+  font-size: 40px;
+  font-weight: bolder;
+  color: #316f81;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family:'Garamond', 'Times New Roman', Times, serif;
+}
